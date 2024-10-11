@@ -1,0 +1,2 @@
+# glosarioacademico.
+glosario_fundamentos
