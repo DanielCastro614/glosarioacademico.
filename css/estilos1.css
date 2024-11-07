@@ -9,11 +9,12 @@ body {
 /*header*/
 header{
     position: relative;
-    width: 100%;
+    width: 90%;
  
 }
  h1{
-    font-family:'Franklin Gothic Medium'; 
+    font-family:'Franklin Gothic Medium';
+    margin-left: 1%;
 }
 
 h2{
@@ -35,6 +36,19 @@ b{
     margin-left: 1px;
     margin-right: 20px;
     
+}
+.mi-proyecto {
+    float: right;
+
+}
+.cardmb-3{
+    position: relative;
+    max-width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 2px solid #000; /* Añade un borde */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 15px; /* Espacio interior */
 }
 
 /*footer*/
