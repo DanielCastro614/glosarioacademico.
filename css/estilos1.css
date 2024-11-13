@@ -50,6 +50,23 @@ b{
     border-radius: 10px; /* Bordes redondeados */
     padding: 15px; /* Espacio interior */
 }
+.nav-link {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 5px;
+  }
+  
+  /* Estilo para los enlaces al pasar el mouse */
+  .nav-link:hover {
+    background-color: #0ab507;
+    color: #ffffff;
+  }
+  
+  /* Estilo para el enlace activo */
+  .nav-pills .nav-link.active { 
+    color: #fff !important; /* Cambia a tu color preferido */ 
+    background-color: #33eb05cc !important; /* Cambia a tu color preferido */ }
+  
 
 /*footer*/
 footer{
