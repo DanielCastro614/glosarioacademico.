@@ -108,3 +108,28 @@ footer .footer-text p{
   .navbar-toggler {
     margin-left: auto;
   }
+.btn-primary {
+    background-color: green;
+    color: white;
+  }
+  .dis{
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 20%;
+     font-size: 36px;
+      color: rgb(255, 0, 0);
+      
+  }
+  .disculpenos{
+    margin-right: 20%;
+    text-align: center;
+    font-size: 36px;
+     color: rgb(255, 0, 0);
+
+  }
+  .perrito{
+    margin-left: 31%;
+    width: 600px;
+    height:600px;
+   
+  }
