@@ -81,7 +81,7 @@ nav ul li a:hover{
  font-size: 30px; 
  color: rgb(3, 160, 3); 
 }
-.btn-primary {
+button .btn-primary {
     background-color: green;
     color: white;
   }
