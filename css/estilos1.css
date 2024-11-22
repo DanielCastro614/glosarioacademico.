@@ -108,9 +108,28 @@ footer .footer-text p{
   .navbar-toggler {
     margin-left: auto;
   }
-.btn-primary {
-    background-color: green;
+  .btn-bonito {
+    background: #28a745;
     color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .btn-bonito:hover {
+    background: linear-gradient(90deg, #3cff00 0%, #00bc03 100%);
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-bonito:active {
+    transform: scale(0.95);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
   }
   .dis{
     text-align: center;
@@ -137,4 +156,15 @@ footer .footer-text p{
     width: 200px;
     height: 150px;
   }
+  .swal2-confirm {
+    background-color: #28a745; /* Color de fondo (puedes cambiarlo a tu color preferido) */
+    color: white; /* Color del texto en el botón */
+    border: none; /* Elimina el borde */
+  }
+  
+  /* Cambiar el color cuando el botón es hover */
+  .swal2-confirm:hover {
+    background-color: #218838; /* Color de fondo cuando el ratón pasa por encima */
+  }
+
 
