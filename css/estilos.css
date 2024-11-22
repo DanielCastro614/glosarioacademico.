@@ -81,10 +81,21 @@ nav ul li a:hover{
  font-size: 30px; 
  color: rgb(3, 160, 3); 
 }
-button .btn-primary {
-    background-color: green;
+.btn-bonito {
+    background: #28a745;
     color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
   }
+
+
+
 
 
 
