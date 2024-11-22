@@ -18,6 +18,19 @@ function validarDatos() {
             color: "#fff",
             background: "transparent",
             backdrop: `rgba(0,0,123,0.4) url("imagenes/patricio.gif") left top no-repeat`,
+             didOpen: () => {
+                const modal = document.querySelector('.swal2-popup');
+                modal.style.backgroundImage = 'url("imagenes/fondo.jpg")'; // Agrega la imagen del fondo
+                modal.style.backgroundSize = '380px 380px'; // Escala la imagen para cubrir todo el modal
+                modal.style.backgroundRepeat = 'no-repeat'; // Evita que se repita la imagen
+                modal.style.backgroundPosition = 'center'; // Centra la imagen
+                modal.style.border = 'none'; // Elimina bordes blancos
+                modal.style.boxShadow = 'none'; // Elimina sombras
+                modal.style.color = '#fff'; // Cambia el color de la letra a blanco
+            
+                const backdrop = document.querySelector('.swal2-container');
+                backdrop.style.backgroundSize = '30%'; // Ajusta la imagen del backdrop
+              }
         });
         console.log("Error: Campo de nombre vacío.");
         return false;
